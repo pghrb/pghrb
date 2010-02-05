@@ -116,3 +116,34 @@ Processing PagesController#show (for 127.0.0.1 at 2010-02-04 19:13:03) [GET]
   Parameters: {"name"=>"about"}
 Rendering pages/show/about
 Completed in 4ms (View: 3, DB: 0) | 200 OK [http://www.example.com/about]
+REQUESTING PAGE: GET /about with {} and HTTP headers {}
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-02-04 19:22:46) [GET]
+  Parameters: {"name"=>"about"}
+Rendering pages/show/about
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-02-04 19:22:46) [GET]
+  Parameters: {"name"=>"about"}
+REQUESTING PAGE: GET /about with {} and HTTP headers {}
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-02-04 19:23:31) [GET]
+  Parameters: {"name"=>"about"}
+Rendering pages/show/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://www.example.com/about]
+REQUESTING PAGE: GET /about with {} and HTTP headers {}
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-02-04 19:23:55) [GET]
+  Parameters: {"name"=>"about"}
+Rendering pages/show/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://www.example.com/about]
+REQUESTING PAGE: GET /about with {} and HTTP headers {}
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-02-04 19:24:40) [GET]
+  Parameters: {"name"=>"about"}
+Rendering pages/show/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://www.example.com/about]
