@@ -1,0 +1,117 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #FFF url('background.gif') repeat-x;
+  padding:0;
+  margin:0;
+  line-height:1.5em;
+  color:#383838;
+}
+
+#header {
+  background: #F6F6F6 url('pinstripes.gif') no-repeat;
+  height: 165px;
+  padding:15px 40px 0 40px;
+  margin-bottom:50px;
+  border-bottom: solid 1px #EEE;
+  position:relative;
+}
+
+/*#logo {
+  /* Leahy/Langridge Image Replacement */
+ width:463px;
+ padding: 125px 0 0 0;
+  overflow: hidden;
+  background-image: url('/images/logo.png');
+  background-repeat: no-repeat;
+  height: 0px !important;
+  height /**/:125px;
+}*/
+
+ul#nav {
+  position:absolute;
+  bottom:20px;
+}
+
+ul#nav li {
+  display:inline;
+}
+
+ul#nav li a {
+  background-color:#F6F6F6;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border: solid 1px #CCC;
+  padding:5px 7px;
+  margin:0 3px;
+  text-decoration: none;
+  font-weight: bold;
+  color:#555;
+  font-size: 120%;
+  letter-spacing:.075em;
+}
+
+ul#nav li a:hover {
+  background-color:#EEE;
+}
+
+#wrapper {
+  margin-left: 40px;
+  width:1000px;
+}
+
+.article-image {
+  border: solid 1px #DDD;
+  width:200px;
+  float:left;
+  margin-left:-225px;
+}
+
+.article {
+  width:500px;
+  float:left;
+  padding-left:225px;
+  
+}
+
+.article h4 {
+  font-size:1.5em;
+  color:#4b4b4b;
+  line-height:1em;
+}
+
+.article h3 {
+  line-height:1em;
+  font-size:3em;
+  color: #000;
+  font-weight:bold;
+  margin-bottom:0.1em;
+}
+
+.article .heading {
+  margin-bottom:1em;
+}
+
+#aside {
+  float:left;
+  width:200px;
+  margin-left:25px;
+  color:#000;
+}
+
+#aside h4 {
+  margin-top:1em;
+  border-bottom:solid #CCC 1px;
+  font-weight:bold;
+}
+
+#footer {
+  clear:both;
+  text-align:center;
+  padding:2em 0;
+  color:#777;
+}
+
+.article .date {
+  letter-spacing:.2em;
+  color:#AAA;
+}

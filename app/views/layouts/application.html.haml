@@ -1,0 +1,16 @@
+!!!
+%html
+  %head
+    %title Pittsburgh.rb
+    = stylesheet_link_tag 'style'
+  %body
+    #header
+      %a{:href=>"#"}
+        %h1{:id=>"logo"} Pittsburgh.rb
+      %ul{:id=>"nav"}
+        %li
+          %a{:href=>"#"} About
+          %a{:href=>"#"} Meetings
+    #wrapper
+      = yield
+    #footer 2010 Pittsburgh.rb

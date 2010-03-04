@@ -21,3 +21,9 @@ Processing PagesController#show (for 0.0.0.0 at 2010-02-04 19:11:18) [GET]
   Parameters: {"name"=>"about"}
 Rendering pages/show/about
 Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/about]
+
+
+Processing PagesController#show (for 0.0.0.0 at 2010-03-04 17:25:05) [GET]
+  Parameters: {"name"=>"about"}
+Rendering pages/show/about
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/about]

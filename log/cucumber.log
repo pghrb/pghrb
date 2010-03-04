@@ -147,3 +147,62 @@ Processing PagesController#show (for 127.0.0.1 at 2010-02-04 19:24:40) [GET]
   Parameters: {"name"=>"about"}
 Rendering pages/show/about
 Completed in 6ms (View: 4, DB: 0) | 200 OK [http://www.example.com/about]
+REQUESTING PAGE: GET /about with {} and HTTP headers {}
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-04 17:26:09) [GET]
+  Parameters: {"name"=>"about"}
+Rendering pages/show/about
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-03-04 17:26:09) [GET]
+  Parameters: {"name"=>"about"}
+REQUESTING PAGE: GET /about with {} and HTTP headers {}
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-04 17:44:08) [GET]
+  Parameters: {"name"=>"about"}
+Rendering template within layouts/application
+Rendering pages/show/about
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-03-04 17:44:08) [GET]
+  Parameters: {"name"=>"about"}
+REQUESTING PAGE: GET /about with {} and HTTP headers {}
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-04 17:45:07) [GET]
+  Parameters: {"name"=>"about"}
+Rendering template within layouts/application
+Rendering pages/show/about
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-03-04 17:45:07) [GET]
+  Parameters: {"name"=>"about"}
+REQUESTING PAGE: GET /about with {} and HTTP headers {}
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-04 17:45:58) [GET]
+  Parameters: {"name"=>"about"}
+Rendering template within layouts/application
+Rendering pages/show/about
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2010-03-04 17:45:58) [GET]
+  Parameters: {"name"=>"about"}
+REQUESTING PAGE: GET /about with {} and HTTP headers {}
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-04 17:46:44) [GET]
+  Parameters: {"name"=>"about"}
+Rendering template within layouts/application
+Rendering pages/show/about
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://www.example.com/about]
+REQUESTING PAGE: GET /about with {} and HTTP headers {}
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-04 17:48:17) [GET]
+  Parameters: {"name"=>"about"}
+Rendering template within layouts/application
+Rendering pages/show/about
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://www.example.com/about]
