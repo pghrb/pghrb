@@ -5,12 +5,15 @@
     = stylesheet_link_tag 'style'
   %body
     #header
-      - link_to root_path do
-        %h1{:id=>"logo"} Pittsburgh.rb
+      - link_to root_path, :id=>"logo" do
+        %h1 Pittsburgh.rb
       %ul{:id=>"nav"}
         %li
           = link_to "About", about_path
           %a{:href=>"#"} Meetings
     #wrapper
-      = yield
+      #main
+        = yield
+      #aside
+        = yield(:sidebar)
     #footer 2010 Pittsburgh.rb

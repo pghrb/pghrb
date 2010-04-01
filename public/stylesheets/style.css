@@ -11,25 +11,26 @@ body {
   background: #F6F6F6 url('pinstripes.gif') no-repeat;
   height: 165px;
   padding:15px 40px 0 40px;
-  margin-bottom:50px;
+  margin-bottom:30px;
   border-bottom: solid 1px #EEE;
   position:relative;
 }
 
-/*#logo {
-  /* Leahy/Langridge Image Replacement */
- width:463px;
- padding: 125px 0 0 0;
-  overflow: hidden;
-  background-image: url('/images/logo.png');
-  background-repeat: no-repeat;
-  height: 0px !important;
-  height /**/:125px;
-}*/
+#logo {
+  text-decoration:none;
+  color:black;
+  font-size:30px;
+}
+
+#logo h1:before {
+  content: url('/images/ruby.gif');
+  margin-right:15px;
+}
 
 ul#nav {
   position:absolute;
-  bottom:20px;
+  left:0;
+  bottom:10px;
 }
 
 ul#nav li {
@@ -66,11 +67,13 @@ ul#nav li a:hover {
   margin-left:-225px;
 }
 
-.article {
+#main {
   width:500px;
   float:left;
   padding-left:225px;
-  
+}
+
+.article {
 }
 
 .article h4 {
