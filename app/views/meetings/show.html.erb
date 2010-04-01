@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @meeting.name %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%=h @meeting.date %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @meeting.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_meeting_path(@meeting) %> |
+<%= link_to 'Back', meetings_path %>

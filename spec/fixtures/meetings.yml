@@ -1,7 +1,11 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
-# one:
-#   column: value
-#
-# two:
-#   column: value
+one:
+  name: MyString
+  date: 2010-04-01 14:33:06
+  description: MyString
+
+two:
+  name: MyString
+  date: 2010-04-01 14:33:06
+  description: MyString
