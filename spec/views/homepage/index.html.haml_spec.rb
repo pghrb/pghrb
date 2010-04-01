@@ -2,6 +2,20 @@ require File.expand_path(File.dirname(__FILE__) + '/../../spec_helper')
 
 describe 'homepage/index.html.haml' do
   
+  context "when there are no meetings" do
+    
+    before :all do
+      Meeting.destroy_all
+    end
+    
+    it "should say there are no upcoming meetings" do
+      render
+      
+      response.should contain("No upcoming meetings.")
+    end
+    
+  end
+  
   context "when there is a single meeting" do
   
     before :each do

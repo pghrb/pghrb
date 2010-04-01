@@ -1,5 +1,6 @@
-No upcoming meetings.
-
-= @current_meeting.name
-= @current_meeting.date
-= @current_meeting.description
+- if @current_meeting
+  = @current_meeting.name
+  = @current_meeting.date
+  = @current_meeting.description
+- else
+  No upcoming meetings.
