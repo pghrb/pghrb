@@ -9,9 +9,9 @@ body {
 
 #header {
   background: #F6F6F6 url('pinstripes.gif') no-repeat;
-  height: 165px;
-  padding:15px 40px 0 40px;
-  margin-bottom:30px;
+  height: 135px;
+  padding:45px 40px 0 40px;
+  margin-bottom:50px;
   border-bottom: solid 1px #EEE;
   position:relative;
 }
@@ -19,7 +19,7 @@ body {
 #logo {
   text-decoration:none;
   color:black;
-  font-size:30px;
+  font-size:60px;
 }
 
 #logo h1:before {
@@ -29,8 +29,7 @@ body {
 
 ul#nav {
   position:absolute;
-  left:0;
-  bottom:10px;
+  bottom:20px;
 }
 
 ul#nav li {
@@ -73,9 +72,6 @@ ul#nav li a:hover {
   padding-left:225px;
 }
 
-.article {
-}
-
 .article h4 {
   font-size:1.5em;
   color:#4b4b4b;
@@ -105,6 +101,14 @@ ul#nav li a:hover {
   margin-top:1em;
   border-bottom:solid #CCC 1px;
   font-weight:bold;
+}
+
+.contact-listing dt, .contact-listing dd {
+  display:inline;
+}
+
+.contact-listing dt:after {
+  content: ":";
 }
 
 #footer {

@@ -5,3 +5,27 @@
     = @current_meeting.description
   - else
     No upcoming meetings.
+
+- content_for :sidebar do
+  %p Pittsburgh.rb is a group for Ruby programming enthusiasts in Pittsburgh.
+  %h4 When?
+  %p
+    We meet at 7:30 PM on the first Thursday of every month. 
+    %a{:href => 'http://www.google.com/calendar/ical/info%40pghrb.org/public/basic.ics'} Subscribe
+    to our calendar to keep informed.
+  %h4 Where?
+  %p
+    %a{:href => 'http://vivisimo.com/'}> Vivisimo
+    , 1710 Murray Ave, Pittsburgh, PA 15217. 
+    %a{:href => 'http://maps.google.com/maps/place?cid=5553659542609095974&q=Vivismo+1710+Murray+Ave,+Pittsburgh,+PA+15217&hl=en&cd=1&cad=src:ppiwlink&ei=s8AVS7eeN6S2ywSvrIFX&sig2=Vc67QCQp-ntwWWMvEsaI_g'} map
+  %h4 Contact
+  %dl{:class=>'contact-listing'}
+    %dt Mailing List
+    %dd
+      %a{:href => 'http://groups.google.com/group/rubypgh'} Google Groups
+    %dt Email
+    %dd
+      %a{:href => 'mailto:info@pghrb.org'} info@pghrb.org
+    %dt Twitter
+    %dd
+      %a{:href => 'http://www.twitter.com/pghrb'} @pghrb

@@ -2,7 +2,7 @@
 %html
   %head
     %title Pittsburgh.rb
-    = stylesheet_link_tag 'style'
+    = stylesheet_link_tag 'style', 'reset'
   %body
     #header
       - link_to root_path, :id=>"logo" do
@@ -16,4 +16,4 @@
         = yield
       #aside
         = yield(:sidebar)
-    #footer 2010 Pittsburgh.rb
+      #footer 2010 Pittsburgh.rb
