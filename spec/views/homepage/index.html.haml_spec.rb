@@ -26,21 +26,27 @@ describe 'homepage/index.html.haml' do
       assigns[:current_meeting].stub!(:name).and_return("Meeting Name")
       render
       
-      response.should contain("Meeting Name")
+      response.should have_tag(".heading h3", "Meeting Name")
     end
     
     it "should have the meeting's date" do
       assigns[:current_meeting].stub!(:date).and_return(Date.today)
       render
       
-      response.should contain(Date.today.to_s)
+      response.should have_tag(".heading .date", Date.today.to_s)
     end
     
     it "should have the meeting's description" do
       assigns[:current_meeting].stub!(:description).and_return("Meeting description")
       render
       
-      response.should contain("Meeting description")
+      response.should have_tag(".article p", "Meeting description")
+    end
+    
+    it "shouldn't say there are no upcoming meetings" do
+      render
+      
+      response.should_not contain("No upcoming meetings.")
     end
 
   end

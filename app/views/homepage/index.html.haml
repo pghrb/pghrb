@@ -1,10 +1,12 @@
 .article
   - if @current_meeting
-    = @current_meeting.name
-    = @current_meeting.date
-    = @current_meeting.description
+    .heading
+      %h4 Next Meeting:
+      %h3= @current_meeting.name
+      .date= @current_meeting.date
+      %p= @current_meeting.description
   - else
-    No upcoming meetings.
+    %p No upcoming meetings.
 
 - content_for :sidebar do
   %p Pittsburgh.rb is a group for Ruby programming enthusiasts in Pittsburgh.
