@@ -1,0 +1,72 @@
+body {
+  font-size: 18px;
+  line-height: 1.2;
+  padding: 30px 15px;
+  width: 770px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header {
+  background-image: url('ruby.png');
+  background-repeat: no-repeat;
+  height: 100px;
+  padding-left: 130px;
+  margin-bottom: 2em;
+}
+header h1 {
+  font-size: 90px;
+  line-height: 60px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+header h2 {
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  color: #AAA;
+}
+h3 {
+  margin-bottom: 0;
+  font-size: 30px;
+}
+dl {
+  margin: 0;
+}
+dt {
+  clear:left;
+  float: left;
+  margin: 0 10px 0 28px;
+}
+dt:after {
+  content: ":";
+}
+dd {
+  margin: 5px 0;
+  color: #999;
+}
+#blurb {
+  margin: 24px 0;
+  font-size: 24px;
+}
+a {
+  color: #F07;
+}
+#gcal {
+  margin: 0;
+  margin-top: 10px;
+}
+#map {
+  height: 270px;
+  width: 770px;
+  margin-top: 10px;
+}
+p, address {
+  margin: 10px 0;
+}
+address {
+  font-style: normal;
+}
+footer {
+  margin: 20px 0;
+  color: #AAA;
+}
