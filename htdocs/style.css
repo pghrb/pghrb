@@ -51,15 +51,6 @@ dd {
 a {
   color: #F07;
 }
-#gcal {
-  margin: 0;
-  margin-top: 10px;
-}
-#map {
-  height: 270px;
-  width: 770px;
-  margin-top: 10px;
-}
 p, address {
   margin: 10px 0;
 }
