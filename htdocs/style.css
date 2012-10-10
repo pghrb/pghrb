@@ -61,3 +61,23 @@ footer {
   margin: 20px 0;
   color: #AAA;
 }
+#meetings {
+  width: 100%;
+  font-size: 14px;
+}
+#meetup-widget {
+  float: left;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+#meeting-info {
+  float: left;
+  display: inline-block;
+  width: 65%;
+  padding-left: 5%;
+  margin-top: -30px;
+}
+#map {
+  clear: both;
+}
