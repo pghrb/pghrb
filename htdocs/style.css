@@ -29,6 +29,19 @@ header h2 {
   color: #AAA;
 }
 
+nav ul {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  width: 5em;
+}
+
 h3 {
   margin-bottom: 0;
   font-size: 30px;
